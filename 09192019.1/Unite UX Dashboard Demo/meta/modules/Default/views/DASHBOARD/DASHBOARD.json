@@ -1,0 +1,744 @@
+{
+    "annotations": {
+        "dataSources": {
+            "name": "dataSourceName"
+        }
+    },
+    "authorization": {
+        "allowedRoles": [
+        ]
+    },
+    "boxStyles": {
+        "gutter": 30
+    },
+    "children": [
+    ],
+    "classList": "",
+    "dataSources": [
+        {
+            "batch": true,
+            "dataProviderName": "TestDataProvider",
+            "dataSourceName": "TestDataSource",
+            "name": "TestViewDataSource",
+            "pageSize": 20,
+            "uniqueID": "c685b4e3-bd4e-f832-c275-c258556eeac4"
+        }
+    ],
+    "designChildren": [
+        {
+            "annotations": {
+                "id": "componentIdentifier"
+            },
+            "contentType": "Background",
+            "deleted": false,
+            "designProps": {
+                "height": "1340px",
+                "left": "80px",
+                "styleAttributes": [
+                    "background-image: linear-gradient(180deg, #F7F8F9 0%, #DEE7ED 100%);"
+                ],
+                "top": "0px",
+                "width": "860px",
+                "zIndex": 1
+            },
+            "html": "<div></div>",
+            "id": "customhtml627d8bb147e04889ae7f9df68708a951",
+            "schemaVersion": "1.0",
+            "type": "custom-html",
+            "uniqueID": "627D8BB1-47E0-4889-AE7F-9DF68708A951"
+        },
+        {
+            "annotations": {
+                "id": "componentIdentifier"
+            },
+            "contentType": "Background",
+            "deleted": false,
+            "designProps": {
+                "height": "350px",
+                "left": "130px",
+                "styleAttributes": [
+                    "background: #FFFFFF;",
+                    "border-radius: 20px;"
+                ],
+                "top": "946px",
+                "width": "758px",
+                "zIndex": 2
+            },
+            "html": "<div></div>",
+            "id": "customhtml843e2828b17b4f7fa2e187805a5f0630",
+            "schemaVersion": "1.0",
+            "type": "custom-html",
+            "uniqueID": "843E2828-B17B-4F7F-A2E1-87805A5F0630"
+        },
+        {
+            "annotations": {
+                "id": "componentIdentifier"
+            },
+            "deleted": false,
+            "designProps": {
+                "height": "300px",
+                "left": "159px",
+                "top": "971px",
+                "width": "700px",
+                "zIndex": 3
+            },
+            "html": "<svg width=\"100%\" height=\"100%\" viewBox=\"0 0 530 360\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">\n    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->\n    <title>_WIP / Charts / Bubble</title>\n    <desc>Created with Sketch.</desc>\n    <g id=\"_WIP-/-Charts-/-Bubble\" stroke=\"none\" stroke-width=\"1\" fill=\"none\" fill-rule=\"evenodd\">\n        <g id=\"ValueAxis\">\n            <g id=\"majorGridLines-opacity\" opacity=\"0.08\" transform=\"translate(23.715953, 7.777778)\" fill=\"#000000\" fill-rule=\"nonzero\">\n                <path d=\"M0,274.444444 L0,273.333333 L489.785992,273.333333 L489.785992,274.444444 L0,274.444444 Z M0,228.888889 L0,227.777778 L489.785992,227.777778 L489.785992,228.888889 L0,228.888889 Z M0,183.333333 L0,182.222222 L489.785992,182.222222 L489.785992,183.333333 L0,183.333333 Z M0,137.777778 L0,136.666667 L489.785992,136.666667 L489.785992,137.777778 L0,137.777778 Z M0,92.2222222 L0,91.1111111 L489.785992,91.1111111 L489.785992,92.2222222 L0,92.2222222 Z M0,46.6666667 L0,45.5555556 L489.785992,45.5555556 L489.785992,46.6666667 L0,46.6666667 Z M0,1.11111111 L0,0 L489.785992,0 L489.785992,1.11111111 L0,1.11111111 Z\" id=\"majorGridLines\"></path>\n            </g>\n            <text id=\"5\" font-family=\"Roboto-Regular, Roboto\" font-size=\"12\" font-weight=\"normal\" line-spacing=\"20\" fill=\"#656565\">\n                <tspan x=\"8.21607809\" y=\"288\">5</tspan>\n            </text>\n            <text id=\"0\" font-family=\"Roboto-Regular, Roboto\" font-size=\"12\" font-weight=\"normal\" line-spacing=\"20\" fill=\"#656565\">\n                <tspan x=\"8.20696164\" y=\"332.444444\">0</tspan>\n            </text>\n            <text id=\"10\" font-family=\"Roboto-Regular, Roboto\" font-size=\"12\" font-weight=\"normal\" line-spacing=\"20\" fill=\"#656565\">\n                <tspan x=\"1.47167786\" y=\"242.444444\">10</tspan>\n            </text>\n            <text id=\"15\" font-family=\"Roboto-Regular, Roboto\" font-size=\"12\" font-weight=\"normal\" line-spacing=\"20\" fill=\"#656565\">\n                <tspan x=\"1.48079432\" y=\"196.888889\">15</tspan>\n            </text>\n            <text id=\"20\" font-family=\"Roboto-Regular, Roboto\" font-size=\"12\" font-weight=\"normal\" line-spacing=\"20\" fill=\"#656565\">\n                <tspan x=\"1.98724207\" y=\"151.333333\">20</tspan>\n            </text>\n            <text id=\"25\" font-family=\"Roboto-Regular, Roboto\" font-size=\"12\" font-weight=\"normal\" line-spacing=\"20\" fill=\"#656565\">\n                <tspan x=\"1.48079432\" y=\"106.333333\">25</tspan>\n            </text>\n            <text id=\"30\" font-family=\"Roboto-Regular, Roboto\" font-size=\"12\" font-weight=\"normal\" line-spacing=\"20\" fill=\"#656565\">\n                <tspan x=\"1.47167786\" y=\"60.2222222\">30</tspan>\n            </text>\n            <text id=\"35\" font-family=\"Roboto-Regular, Roboto\" font-size=\"12\" font-weight=\"normal\" line-spacing=\"20\" fill=\"#656565\">\n                <tspan x=\"1.48079432\" y=\"14.6666667\">35</tspan>\n            </text>\n        </g>\n        <g id=\"CategoryAxis\" transform=\"translate(17.529183, 7.777778)\">\n            <g id=\"majorGridLines_opacity\" opacity=\"0.08\" transform=\"translate(5.155642, 0.000000)\" fill=\"#000000\" fill-rule=\"nonzero\">\n                <path d=\"M489.785992,318.888889 L489.785992,0 L490.817121,0 L490.817121,318.888889 L489.785992,318.888889 Z M367.081712,318.888889 L367.081712,0 L368.11284,0 L368.11284,318.888889 L367.081712,318.888889 Z M244.377432,318.888889 L244.377432,0 L245.40856,0 L245.40856,318.888889 L244.377432,318.888889 Z M122.70428,318.888889 L122.70428,0 L123.735409,0 L123.735409,318.888889 L122.70428,318.888889 Z M0,318.888889 L0,0 L1.0311284,0 L1.0311284,318.888889 L0,318.888889 Z\" id=\"majorGridLines\"></path>\n            </g>\n            <g id=\"majorTicks_opacity\" opacity=\"0.08\" transform=\"translate(5.155642, 320.000000)\" fill=\"#000000\" fill-rule=\"nonzero\">\n                <path d=\"M489.785992,5.55555556 L489.785992,0 L490.817121,0 L490.817121,5.55555556 L489.785992,5.55555556 Z M367.081712,5.55555556 L367.081712,0 L368.11284,0 L368.11284,5.55555556 L367.081712,5.55555556 Z M244.377432,5.55555556 L244.377432,0 L245.40856,0 L245.40856,5.55555556 L244.377432,5.55555556 Z M122.70428,5.55555556 L122.70428,0 L123.735409,0 L123.735409,5.55555556 L122.70428,5.55555556 Z M0,5.55555556 L0,0 L1.0311284,0 L1.0311284,5.55555556 L0,5.55555556 Z\" id=\"majorTicks\"></path>\n            </g>\n            <g id=\"CategoryAxisLine-opacity\" opacity=\"0.08\" transform=\"translate(5.155642, 318.888889)\" fill=\"#000000\" fill-rule=\"nonzero\">\n                <rect id=\"CategoryAxisLine\" x=\"0\" y=\"0\" width=\"490.817121\" height=\"1.11111111\"></rect>\n            </g>\n            <text id=\"0\" font-family=\"Roboto-Regular, Roboto\" font-size=\"12\" font-weight=\"normal\" line-spacing=\"20\" fill=\"#656565\">\n                <tspan x=\"0.866358524\" y=\"344.111111\">0</tspan>\n            </text>\n            <text id=\"5\" font-family=\"Roboto-Regular, Roboto\" font-size=\"12\" font-weight=\"normal\" line-spacing=\"20\" fill=\"#656565\">\n                <tspan x=\"123.576662\" y=\"344.111111\">5</tspan>\n            </text>\n            <text id=\"10\" font-family=\"Roboto-Regular, Roboto\" font-size=\"12\" font-weight=\"normal\" line-spacing=\"20\" fill=\"#656565\">\n                <tspan x=\"241.991658\" y=\"344.111111\">10</tspan>\n            </text>\n            <text id=\"15\" font-family=\"Roboto-Regular, Roboto\" font-size=\"12\" font-weight=\"normal\" line-spacing=\"20\" fill=\"#656565\">\n                <tspan x=\"364.701962\" y=\"344.111111\">15</tspan>\n            </text>\n            <text id=\"20\" font-family=\"Roboto-Regular, Roboto\" font-size=\"12\" font-weight=\"normal\" line-spacing=\"20\" fill=\"#656565\">\n                <tspan x=\"486.36909\" y=\"344.111111\">20</tspan>\n            </text>\n        </g>\n        <g id=\"Series_A\" transform=\"translate(127.284047, 124.555556)\" fill=\"#FF6358\" fill-rule=\"nonzero\">\n            <g id=\"series_a-opacity\" opacity=\"0.3\">\n                <path d=\"M28,166.5 C28,157.939586 34.9395864,151 43.5,151 C52.0604136,151 59,157.939586 59,166.5 C59,175.060414 52.0604136,182 43.5,182 C34.9395864,182 28,175.060414 28,166.5 Z M0,144.5 C0,140.910149 2.91014913,138 6.5,138 C10.0898509,138 13,140.910149 13,144.5 C13,148.089851 10.0898509,151 6.5,151 C2.91014913,151 0,148.089851 0,144.5 Z M43,139 C43,136.238576 45.2385763,134 48,134 C50.7614237,134 53,136.238576 53,139 C53,141.761424 50.7614237,144 48,144 C45.2385763,144 43,141.761424 43,139 Z M92,68 C92,30.444637 122.444637,0 160,0 C197.555363,0 228,30.444637 228,68 C228,105.555363 197.555363,136 160,136 C122.444637,136 92,105.555363 92,68 Z M50,108.5 C50,99.3873016 57.3873016,92 66.5,92 C75.6126984,92 83,99.3873016 83,108.5 C83,117.612698 75.6126984,125 66.5,125 C62.1239279,125 57.9270884,123.261612 54.8327381,120.167262 C51.7383879,117.072912 50,112.876072 50,108.5 L50,108.5 Z\" id=\"series_a\"></path>\n            </g>\n            <g id=\"series_a\" stroke-linejoin=\"round\" transform=\"translate(50.000000, 92.000000)\">\n                <circle id=\"Oval\" cx=\"16.5\" cy=\"16.5\" r=\"16.5\"></circle>\n            </g>\n        </g>\n        <g id=\"Series_B\" transform=\"translate(109.268482, 86.222222)\" fill=\"#FFD246\" fill-rule=\"nonzero\" opacity=\"0.3\">\n            <g id=\"series_b-opacity\">\n                <path d=\"M49,113.5 C49,103.282732 57.2827321,95 67.5,95 C77.7172679,95 86,103.282732 86,113.5 C86,123.717268 77.7172679,132 67.5,132 C57.2827321,132 49,123.717268 49,113.5 Z M177,103 C177,95.8202983 182.820298,90 190,90 C197.179702,90 203,95.8202983 203,103 C203,110.179702 197.179702,116 190,116 C186.552186,116 183.245585,114.630361 180.807612,112.192388 C178.369639,109.754415 177,106.447814 177,103 L177,103 Z M219,83 C219,70.8497355 228.849736,61 241,61 C253.150264,61 263,70.8497355 263,83 C263,95.1502645 253.150264,105 241,105 C228.849736,105 219,95.1502645 219,83 Z M0,88.5 C2.84217094e-14,84.9101491 2.91014913,82 6.5,82 C10.0898509,82 13,84.9101491 13,88.5 C13,92.0898509 10.0898509,95 6.5,95 C2.91014913,95 2.84217094e-14,92.0898509 2.84217094e-14,88.5 L0,88.5 Z M107,73 C107,63.6111593 114.611159,56 124,56 C133.388841,56 141,63.6111593 141,73 C141,82.3888407 133.388841,90 124,90 C114.611159,90 107,82.3888407 107,73 Z M10,30 C10,13.4314575 23.4314575,0 40,0 C56.5685425,0 70,13.4314575 70,30 C70,46.5685425 56.5685425,60 40,60 C23.4314575,60 10,46.5685425 10,30 Z\" id=\"series_b-7\"></path>\n            </g>\n        </g>\n        <g id=\"Series_C\" transform=\"translate(81.984436, 180.888889)\" fill=\"#78D237\" fill-rule=\"nonzero\" opacity=\"0.3\">\n            <g id=\"series_c-opacity\" transform=\"translate(19.000000, 0.000000)\">\n                <path d=\"M0,53.5 C0,43.8350169 7.83501688,36 17.5,36 C27.1649831,36 35,43.8350169 35,53.5 C35,63.1649831 27.1649831,71 17.5,71 C7.83501688,71 0,63.1649831 0,53.5 L0,53.5 Z M44,47 C44,43.1340068 47.1340068,40 51,40 C54.8659932,40 58,43.1340068 58,47 C58,50.8659932 54.8659932,54 51,54 C47.1340068,54 44,50.8659932 44,47 L44,47 Z M36,16 C36,7.163444 43.163444,0 52,0 C60.836556,0 68,7.163444 68,16 C68,24.836556 60.836556,32 52,32 C43.163444,32 36,24.836556 36,16 Z M71,26 C71,25.4477153 71.4477153,25 72,25 C72.5522847,25 73,25.4477153 73,26 C73,26.5522847 72.5522847,27 72,27 C71.4477153,27 71,26.5522847 71,26 Z M74,15.5 C74,13.5670034 75.5670034,12 77.5,12 C79.4329966,12 81,13.5670034 81,15.5 C81,17.4329966 79.4329966,19 77.5,19 C75.5670034,19 74,17.4329966 74,15.5 Z\" id=\"series_c\"></path>\n            </g>\n            <g id=\"series_c-opacity\" transform=\"translate(0.000000, 44.000000)\">\n                <path d=\"M13,16 C13,7.163444 20.163444,0 29,0 C37.836556,0 45,7.163444 45,16 C45,24.836556 37.836556,32 29,32 C20.163444,32 13,24.836556 13,16 Z M8,26 C8,25.4477153 8.44771525,25 9,25 C9.55228475,25 10,25.4477153 10,26 C10,26.5522847 9.55228475,27 9,27 C8.44771525,27 8,26.5522847 8,26 Z M0,15.5 C0,13.5670034 1.56700338,12 3.5,12 C5.43299662,12 7,13.5670034 7,15.5 C7,17.4329966 5.43299662,19 3.5,19 C1.56700338,19 2.27373675e-13,17.4329966 0,15.5 L0,15.5 Z\" id=\"series_c\"></path>\n            </g>\n        </g>\n        <g id=\"Series_D\" transform=\"translate(220.252918, 84.166667)\" fill=\"#28B4C8\" fill-rule=\"nonzero\" opacity=\"0.3\">\n            <g id=\"series_d-opacity\" transform=\"translate(0.000000, -0.000000)\">\n                <path d=\"M122,85 C122,79.4771525 126.477153,75 132,75 C137.522847,75 142,79.4771525 142,85 C142,90.5228475 137.522847,95 132,95 C126.477153,95 122,90.5228475 122,85 L122,85 Z M0,58.5 C0,45.5213084 10.5213084,35 23.5,35 C36.4786916,35 47,45.5213084 47,58.5 C47,71.4786916 36.4786916,82 23.5,82 C10.5213084,82 0,71.4786916 0,58.5 Z M69,54.5 C69,51.4624339 71.4624339,49 74.5,49 C77.5375661,49 80,51.4624339 80,54.5 C80,57.5375661 77.5375661,60 74.5,60 C71.4624339,60 69,57.5375661 69,54.5 L69,54.5 Z M259,23 C259,10.2974508 269.297451,0 282,0 C294.702549,0 305,10.2974508 305,23 C305,35.7025492 294.702549,46 282,46 C269.297451,46 259,35.7025492 259,23 L259,23 Z M62,39 C62,36.790861 63.790861,35 66,35 C68.209139,35 70,36.790861 70,39 C70,41.209139 68.209139,43 66,43 C63.790861,43 62,41.209139 62,39 Z M78,23.5 C78,18.2532949 82.2532949,14 87.5,14 C92.7467051,14 97,18.2532949 97,23.5 C97,28.7467051 92.7467051,33 87.5,33 C82.2532949,33 78,28.7467051 78,23.5 L78,23.5 Z\" id=\"series_d\"></path>\n            </g>\n        </g>\n        <g id=\"Series_E\" transform=\"translate(53.015564, 57.166667)\" fill=\"#2D73F5\" fill-rule=\"nonzero\">\n            <g id=\"series_e-opacity\" opacity=\"0.3\">\n                <path d=\"M0,108 C-2.84217094e-14,96.4020203 9.40202025,87 21,87 C32.5979797,87 42,96.4020203 42,108 C42,119.59798 32.5979797,129 21,129 C9.40202025,129 2.84217094e-14,119.59798 2.84217094e-14,108 L0,108 Z M44,33.5 C44,17.7598846 56.7598846,5 72.5,5 C88.2401154,5 101,17.7598846 101,33.5 C101,49.2401154 88.2401154,62 72.5,62 C56.7598846,62 44,49.2401154 44,33.5 Z M122,30.5 C122,28.0147186 124.014719,26 126.5,26 C128.985281,26 131,28.0147186 131,30.5 C131,32.9852814 128.985281,35 126.5,35 C124.014719,35 122,32.9852814 122,30.5 Z M137,11.5 C137,5.14872538 142.148725,0 148.5,0 C154.851275,0 160,5.14872538 160,11.5 C160,17.8512746 154.851275,23 148.5,23 C142.148725,23 137,17.8512746 137,11.5 Z\" id=\"series_e\"></path>\n            </g>\n            <g id=\"series_e\" transform=\"translate(44.000000, 5.000000)\">\n                <circle id=\"Oval\" cx=\"28.5\" cy=\"28.5\" r=\"28.5\"></circle>\n            </g>\n        </g>\n        <g id=\"Series_F\" transform=\"translate(80.249027, 133.500000)\" fill=\"#AA46BE\" fill-rule=\"nonzero\" opacity=\"0.3\">\n            <g id=\"series_f-opacity\" transform=\"translate(0.000000, 0.973893)\">\n                <path d=\"M237,100.526107 C237,89.2042701 246.178163,80.0261075 257.5,80.0261075 C268.821837,80.0261075 278,89.2042701 278,100.526107 C278,111.847945 268.821837,121.026107 257.5,121.026107 C246.178163,121.026107 237,111.847945 237,100.526107 L237,100.526107 Z M257,64.5261075 C257,58.1748328 262.148725,53.0261075 268.5,53.0261075 C274.851275,53.0261075 280,58.1748328 280,64.5261075 C280,70.8773821 274.851275,76.0261075 268.5,76.0261075 C262.148725,76.0261075 257,70.8773821 257,64.5261075 Z M135,63.5261075 C135,59.3839718 138.357864,56.0261075 142.5,56.0261075 C146.642136,56.0261075 150,59.3839718 150,63.5261075 C150,67.6682431 146.642136,71.0261075 142.5,71.0261075 C138.357864,71.0261075 135,67.6682431 135,63.5261075 Z M322,30.5261075 C322,25.2794023 326.253295,21.0261075 331.5,21.0261075 C336.746705,21.0261075 341,25.2794023 341,30.5261075 C341,35.7728126 336.746705,40.0261075 331.5,40.0261075 C326.253295,40.0261075 322,35.7728126 322,30.5261075 Z M2.27373675e-13,19.0261075 C2.27373675e-13,10.7418362 6.71572875,4.02610745 15,4.02610745 C23.2842712,4.02610745 30,10.7418362 30,19.0261075 C30,27.3103787 23.2842712,34.0261075 15,34.0261075 C6.71572875,34.0261075 2.27373675e-13,27.3103787 2.27373675e-13,19.0261075 Z M367,8.52610745 C367.265541,3.61887414 371.41331,-0.171086724 376.324532,0.00595809583 C381.235755,0.183002916 385.099863,4.26178423 385.011372,9.1754 C384.922881,14.0890158 380.914413,18.0260166 376,18.0261075 C370.893221,17.8838818 366.866177,13.6331136 367,8.52610745 L367,8.52610745 Z\" id=\"series_f-6\"></path>\n            </g>\n        </g>\n    </g>\n</svg>",
+            "id": "customhtml2b96d5dc42e84b8caff3016c0436effc",
+            "schemaVersion": "1.0",
+            "type": "custom-html",
+            "uniqueID": "2B96D5DC-42E8-4B8C-AFF3-016C0436EFFC"
+        },
+        {
+            "annotations": {
+                "id": "componentIdentifier"
+            },
+            "deleted": false,
+            "designProps": {
+                "height": "30px",
+                "left": "699px",
+                "top": "892px",
+                "width": "190px",
+                "zIndex": 4
+            },
+            "events": {
+                "onChange": ""
+            },
+            "formControlName": "",
+            "format": "M/d/yyyy",
+            "htmlWrapper": {
+                "html": "[[COMPONENT-CONTENT]]",
+                "placeholder": "[[COMPONENT-CONTENT]]"
+            },
+            "id": "datepickerd519ab7675a3452d9121459dec872c25",
+            "maxDate": "2099-12-30T22:00:00.000Z",
+            "minDate": "1899-12-31T22:00:00.000Z",
+            "model": "",
+            "name": "",
+            "schemaVersion": "1.0",
+            "title": "",
+            "type": "date-picker",
+            "uniqueID": "D519AB76-75A3-452D-9121-459DEC872C25",
+            "validation": {
+                "required": false
+            }
+        },
+        {
+            "annotations": {
+                "id": "componentIdentifier"
+            },
+            "contentType": "Text",
+            "deleted": false,
+            "designProps": {
+                "height": "40px",
+                "left": "130px",
+                "styleAttributes": [
+                    "font-family: Roboto-Regular;",
+                    "font-size: 19px;",
+                    "color: #000000;",
+                    "line-height: 40px;"
+                ],
+                "top": "887px",
+                "width": "145px",
+                "zIndex": 5
+            },
+            "html": "<h2 class=\"k-h2 k-text-left\">Average Revenue</h2>",
+            "id": "customhtml2d3f07d668394ed7bc03c9bf97d47112",
+            "schemaVersion": "1.0",
+            "type": "custom-html",
+            "uniqueID": "2D3F07D6-6839-4ED7-BC03-C9BF97D47112"
+        },
+        {
+            "annotations": {
+                "id": "componentIdentifier"
+            },
+            "contentType": "Background",
+            "deleted": false,
+            "designProps": {
+                "height": "350px",
+                "left": "130px",
+                "styleAttributes": [
+                    "background: #FFFFFF;",
+                    "border-radius: 20px;"
+                ],
+                "top": "486px",
+                "width": "758px",
+                "zIndex": 6
+            },
+            "html": "<div></div>",
+            "id": "customhtml993e5a535a50443ca5b5522ff2f5de7f",
+            "schemaVersion": "1.0",
+            "type": "custom-html",
+            "uniqueID": "993E5A53-5A50-443C-A5B5-522FF2F5DE7F"
+        },
+        {
+            "annotationRefs": {
+                "dataSourceName": {
+                    "kind": "dataSourceName",
+                    "value": "c685b4e3-bd4e-f832-c275-c258556eeac4.TestViewDataSource"
+                }
+            },
+            "annotations": {
+                "id": "componentIdentifier"
+            },
+            "categoryAxis": {
+                "labels": {
+                    "format": "{0}",
+                    "rotation": {
+                        "angle": 0
+                    }
+                }
+            },
+            "dataSourceName": "TestViewDataSource",
+            "deleted": false,
+            "designProps": {
+                "height": "300px",
+                "left": "151px",
+                "top": "511px",
+                "width": "700px",
+                "zIndex": 7
+            },
+            "events": {
+                "onDataBound": "",
+                "onSeriesClick": ""
+            },
+            "htmlWrapper": {
+                "html": "[[COMPONENT-CONTENT]]",
+                "placeholder": "[[COMPONENT-CONTENT]]"
+            },
+            "id": "barcharts688e15f429ee49cb823fc4e6784d8d26",
+            "legend": {
+                "background": "white",
+                "position": "Top",
+                "visible": true
+            },
+            "schemaVersion": "1.0",
+            "series": [
+                {
+                    "field": "numeric_data_0_10",
+                    "name": "Series A"
+                },
+                {
+                    "field": "numeric_data_0_20",
+                    "name": "Series B"
+                },
+                {
+                    "field": "numeric_data_0_30",
+                    "name": "Series C"
+                },
+                {
+                    "field": "numeric_data_10_100",
+                    "name": "Series D"
+                },
+                {
+                    "field": "numeric_data_10_20",
+                    "name": "Series E"
+                },
+                {
+                    "field": "numeric_data_10_30",
+                    "name": "Series F"
+                }
+            ],
+            "seriesDefaults": {
+                "labels": {
+                    "visible": false
+                },
+                "typeChart": "Column"
+            },
+            "title": {
+                "text": ""
+            },
+            "tooltip": {
+                "templateFunction": "",
+                "templateId": "",
+                "visible": false
+            },
+            "type": "bar-charts",
+            "uniqueID": "688E15F4-29EE-49CB-823F-C4E6784D8D26",
+            "valueAxis": {
+                "labels": {
+                    "format": "{0}",
+                    "rotation": {
+                        "angle": 0
+                    }
+                },
+                "line": {
+                    "visible": true
+                }
+            }
+        },
+        {
+            "annotations": {
+                "id": "componentIdentifier"
+            },
+            "contentType": "Text",
+            "deleted": false,
+            "designProps": {
+                "height": "40px",
+                "left": "130px",
+                "styleAttributes": [
+                    "font-family: Roboto-Regular;",
+                    "font-size: 19px;",
+                    "color: #000000;",
+                    "line-height: 40px;"
+                ],
+                "top": "426px",
+                "width": "149px",
+                "zIndex": 8
+            },
+            "html": "<h2 class=\"k-h2 k-text-left\">Session Overview</h2>",
+            "id": "customhtmlb3cd7c0fbdf744088dda147453279ef6",
+            "schemaVersion": "1.0",
+            "type": "custom-html",
+            "uniqueID": "B3CD7C0F-BDF7-4408-8DDA-147453279EF6"
+        },
+        {
+            "annotations": {
+                "id": "componentIdentifier"
+            },
+            "contentType": "Background",
+            "deleted": false,
+            "designProps": {
+                "height": "260px",
+                "left": "130px",
+                "styleAttributes": [
+                    "background: #A0DDDD;",
+                    "border-radius: 20px;"
+                ],
+                "top": "117px",
+                "width": "759px",
+                "zIndex": 9
+            },
+            "html": "<div></div>",
+            "id": "customhtml6a18844e8a2443269b83af639414569f",
+            "schemaVersion": "1.0",
+            "type": "custom-html",
+            "uniqueID": "6A18844E-8A24-4326-9B83-AF639414569F"
+        },
+        {
+            "annotations": {
+                "id": "componentIdentifier"
+            },
+            "contentType": "Text",
+            "deleted": false,
+            "designProps": {
+                "height": "181px",
+                "left": "173px",
+                "styleAttributes": [
+                    "font-family: Roboto-Light;",
+                    "font-size: 28px;",
+                    "color: #09229B;",
+                    "line-height: 40px;"
+                ],
+                "top": "171px",
+                "width": "370px",
+                "zIndex": 10
+            },
+            "html": "<h1 class=\"k-h1 k-text-left\">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pharetra velit a nisi gravida pharetra. </h1>",
+            "id": "customhtmlfc08ca7cb08e4b39bd7ed231b8eb8cbb",
+            "schemaVersion": "1.0",
+            "type": "custom-html",
+            "uniqueID": "FC08CA7C-B08E-4B39-BD7E-D231B8EB8CBB"
+        },
+        {
+            "alt": "",
+            "annotations": {
+                "id": "componentIdentifier"
+            },
+            "deleted": false,
+            "designProps": {
+                "height": "260px",
+                "left": "559px",
+                "top": "117px",
+                "width": "330px",
+                "zIndex": 11
+            },
+            "htmlWrapper": {
+                "html": "[[COMPONENT-CONTENT]]",
+                "placeholder": "[[COMPONENT-CONTENT]]"
+            },
+            "id": "image6ede6030a6cb48f797716fbb7ef2b6cf",
+            "model": "",
+            "schemaVersion": "1.0",
+            "src": "161cda4f1113eaa237f813d799e6763d61d433bb.png",
+            "type": "image",
+            "uniqueID": "6EDE6030-A6CB-48F7-9771-6FBB7EF2B6CF"
+        },
+        {
+            "annotations": {
+                "id": "componentIdentifier"
+            },
+            "contentType": "Text",
+            "deleted": false,
+            "designProps": {
+                "height": "40px",
+                "left": "130px",
+                "styleAttributes": [
+                    "font-family: Roboto-Light;",
+                    "font-size: 28px;",
+                    "color: #000000;",
+                    "line-height: 40px;"
+                ],
+                "top": "49.2400016784668px",
+                "width": "134px",
+                "zIndex": 12
+            },
+            "html": "<h1 class=\"k-h1 k-text-left\">Dashboard</h1>",
+            "id": "customhtml73fa6842f32d43ce807a5895f1d1af46",
+            "schemaVersion": "1.0",
+            "type": "custom-html",
+            "uniqueID": "73FA6842-F32D-43CE-807A-5895F1D1AF46"
+        },
+        {
+            "annotations": {
+                "id": "componentIdentifier"
+            },
+            "contentType": "Background",
+            "deleted": false,
+            "designProps": {
+                "height": "1340px",
+                "left": "940px",
+                "styleAttributes": [
+                    "background: #FFFFFF;"
+                ],
+                "top": "0px",
+                "width": "340px",
+                "zIndex": 13
+            },
+            "html": "<div></div>",
+            "id": "customhtml4e71a86ce5bb45eebedceb897500dbf3",
+            "schemaVersion": "1.0",
+            "type": "custom-html",
+            "uniqueID": "4E71A86C-E5BB-45EE-BEDC-EB897500DBF3"
+        },
+        {
+            "annotations": {
+                "id": "componentIdentifier"
+            },
+            "deleted": false,
+            "designProps": {
+                "height": "200px",
+                "left": "1010px",
+                "top": "1067px",
+                "width": "200px",
+                "zIndex": 14
+            },
+            "html": "<svg width=\"100%\" height=\"100%\" viewBox=\"0 0 220 220\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">\n    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->\n    <title>_WIP / Gauge / ArcGauge / Scaled / Reversed</title>\n    <desc>Created with Sketch.</desc>\n    <g id=\"_WIP-/-Gauge-/-ArcGauge-/-Scaled-/-Reversed\" stroke=\"none\" stroke-width=\"1\" fill=\"none\" fill-rule=\"evenodd\">\n        <g id=\"Group\" transform=\"translate(0.000000, -0.999388)\" fill-rule=\"nonzero\">\n            <path d=\"M110,220.999388 C49.2486775,220.999388 0,171.75071 0,110.999388 C0,50.2480651 49.2486775,0.999387605 110,0.999387605 C170.751322,0.999387605 220,50.2480651 220,110.999388 C220,171.75071 170.751322,220.999388 110,220.999388 Z M110,212.924621 C166.333044,212.924621 212,167.257666 212,110.924621 C212,54.5915768 166.333044,8.92462125 110,8.92462125 C53.6669555,8.92462125 8,54.5915768 8,110.924621 C8,167.257666 53.6669555,212.924621 110,212.924621 Z\" id=\"Combined-Shape\" fill=\"#F6F6F6\"></path>\n            <g id=\"opacity\" opacity=\"0.08\" transform=\"translate(0.000001, 0.000000)\" fill=\"#000000\">\n                <path d=\"M109.999999,220.985943 C49.2486767,220.985943 -8.36809704e-07,171.737265 -8.36809704e-07,110.985943 C-8.36809704e-07,50.2346205 49.2486767,0.985942928 109.999999,0.985942928 C170.751322,0.985942928 219.999999,50.2346205 219.999999,110.985943 C219.999999,171.737265 170.751322,220.985943 109.999999,220.985943 Z M109.999999,213.058015 C166.333044,213.058015 211.999999,167.358792 211.999999,110.985943 C211.999999,54.6130941 166.333044,8.91387086 109.999999,8.91387086 C53.6669547,8.91387086 7.99999916,54.6130941 7.99999916,110.985943 C7.99999916,167.358792 53.6669547,213.058015 109.999999,213.058015 Z\" id=\"Combined-Shape\"></path>\n            </g>\n            <path d=\"M109.495,1.0536876 C107.424,1.1706876 105.776,2.8716876 105.776,4.9716876 C105.776,7.0716876 107.424,8.7716876 109.495,8.8886876 C109.504,8.8916876 109.513,8.8916876 109.521,8.8916876 C109.587,8.8946876 109.649,8.9116876 109.716,8.9116876 C109.768,8.9116876 109.816,8.8976876 109.868,8.8956876 C166.029,9.0966876 211.495,54.5096876 211.495,110.505688 C211.495,166.625688 165.828,212.119688 109.495,212.119688 C56.719,212.119688 13.305,172.188688 8.034,120.998688 L8.006,120.998688 C7.948,118.840688 6.189,117.106688 4.017,117.106688 C1.845,117.106688 0.086,118.840688 0.028,120.998688 L3.97903932e-13,120.998688 C5.306,176.554688 52.3,220.012688 109.495,220.012688 C170.246,220.012688 219.495,170.984688 219.495,110.505688 C219.495,50.0266876 170.246,0.998687605 109.495,0.998687605 L109.495,1.0536876 Z\" id=\"progress-indicator\" fill=\"#FF6358\"></path>\n        </g>\n        <text id=\"50\" font-family=\"Roboto-Regular, Roboto\" font-size=\"14\" font-weight=\"normal\" line-spacing=\"20\" fill=\"#656565\">\n            <tspan x=\"102.114746\" y=\"115\">50</tspan>\n        </text>\n    </g>\n</svg>",
+            "id": "customhtml6bfe217255fa4626a99ee73fd44f0ba2",
+            "schemaVersion": "1.0",
+            "type": "custom-html",
+            "uniqueID": "6BFE2172-55FA-4626-A99E-E73FD44F0BA2"
+        },
+        {
+            "annotations": {
+                "id": "componentIdentifier"
+            },
+            "contentType": "Text",
+            "deleted": false,
+            "designProps": {
+                "height": "40px",
+                "left": "1048px",
+                "styleAttributes": [
+                    "font-family: Roboto-Regular;",
+                    "font-size: 19px;",
+                    "color: #000000;",
+                    "text-align: center;",
+                    "line-height: 40px;"
+                ],
+                "top": "1008px",
+                "width": "123px",
+                "zIndex": 15
+            },
+            "html": "<h2 class=\"k-h2 k-text-center\">Online Visitors</h2>",
+            "id": "customhtml81e983c96f9d43ab9b4b2c5436b60220",
+            "schemaVersion": "1.0",
+            "type": "custom-html",
+            "uniqueID": "81E983C9-6F9D-43AB-9B4B-2C5436B60220"
+        },
+        {
+            "annotations": {
+                "id": "componentIdentifier"
+            },
+            "deleted": false,
+            "designProps": {
+                "height": "200px",
+                "left": "1010px",
+                "top": "747px",
+                "width": "200px",
+                "zIndex": 16
+            },
+            "html": "<svg width=\"100%\" height=\"100%\" viewBox=\"0 0 220 220\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">\n    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->\n    <title>_WIP / Gauge / ArcGauge / Scaled</title>\n    <desc>Created with Sketch.</desc>\n    <g id=\"_WIP-/-Gauge-/-ArcGauge-/-Scaled\" stroke=\"none\" stroke-width=\"1\" fill=\"none\" fill-rule=\"evenodd\">\n        <g id=\"Group\" transform=\"translate(-0.000000, 0.000000)\" fill-rule=\"nonzero\">\n            <path d=\"M110,222.075472 C49.2486775,222.075472 0,172.362184 0,111.037736 C0,49.7132877 49.2486775,-1.33582034e-12 110,-1.33582034e-12 C170.751322,-1.33582034e-12 220,49.7132877 220,111.037736 C220,172.362184 170.751322,222.075472 110,222.075472 Z M110,213.924528 C166.333044,213.924528 212,167.826752 212,110.962264 C212,54.0977759 166.333044,8 110,8 C53.6669555,8 8,54.0977759 8,110.962264 C8,167.826752 53.6669555,213.924528 110,213.924528 Z\" id=\"Combined-Shape\" fill=\"#F6F6F6\"></path>\n            <g id=\"opacity\" opacity=\"0.08\" transform=\"translate(0.000001, 0.000612)\" fill=\"#000000\">\n                <path d=\"M110,222.075472 C49.2486775,222.075472 0,172.362184 0,111.037736 C0,49.7132877 49.2486775,2.4158453e-13 110,2.4158453e-13 C170.751322,2.4158453e-13 220,49.7132877 220,111.037736 C220,172.362184 170.751322,222.075472 110,222.075472 Z M110,213.924528 C166.333044,213.924528 212,167.826752 212,110.962264 C212,54.0977759 166.333044,8 110,8 C53.6669555,8 8,54.0977759 8,110.962264 C8,167.826752 53.6669555,213.924528 110,213.924528 Z\" id=\"Combined-Shape\"></path>\n            </g>\n            <path d=\"M2.23500354,87.831 C5.11686266,73.7607451 10.7408175,60.3955698 18.7860035,48.498 C30.7267294,30.8132032 47.5387242,16.9697065 67.1860035,8.644 C73.8406954,5.83187388 80.7574197,3.68540819 87.8350035,2.236 C94.7172223,0.831878115 101.717441,0.0858488852 108.741004,0.008 C108.828004,0.003 108.915004,-4.47641924e-13 109.003004,-4.47641924e-13 C111.212143,-4.47641924e-13 113.003004,1.790861 113.003004,4 C113.003004,6.209139 111.212143,8 109.003004,8 C102.43324,8.06300351 95.8846358,8.75550269 89.4470035,10.068 C76.400157,12.7406136 64.0071522,17.9557879 52.9750035,25.416 C36.5756555,36.4863454 23.7385626,52.0748889 16.0190035,70.293 C13.4113205,76.4633462 11.4206214,82.876593 10.0760035,89.439 C8.69516695,96.2055425 7.99965398,103.094002 8.00000354,110 C8.00000354,112.209139 6.20914254,114 4.00000354,114 C1.79086454,114 3.54089671e-06,112.209139 3.54089671e-06,110 C-0.00187901878,102.554003 0.74690695,95.1267829 2.23500354,87.831 Z\" id=\"progress-indicator\" fill=\"#FF6358\"></path>\n        </g>\n        <text id=\"50\" font-family=\"Roboto-Regular, Roboto\" font-size=\"14\" font-weight=\"normal\" line-spacing=\"20\" fill=\"#656565\">\n            <tspan x=\"102.114746\" y=\"117\">50</tspan>\n        </text>\n    </g>\n</svg>",
+            "id": "customhtml75e8d694d2b7466083143fc229c91b3b",
+            "schemaVersion": "1.0",
+            "type": "custom-html",
+            "uniqueID": "75E8D694-D2B7-4660-8314-3FC229C91B3B"
+        },
+        {
+            "annotations": {
+                "id": "componentIdentifier"
+            },
+            "contentType": "Text",
+            "deleted": false,
+            "designProps": {
+                "height": "40px",
+                "left": "1056px",
+                "styleAttributes": [
+                    "font-family: Roboto-Regular;",
+                    "font-size: 19px;",
+                    "color: #000000;",
+                    "text-align: center;",
+                    "line-height: 40px;"
+                ],
+                "top": "687px",
+                "width": "107px",
+                "zIndex": 17
+            },
+            "html": "<h2 class=\"k-h2 k-text-center\">New Visitors</h2>",
+            "id": "customhtml27f55451c0ff4ca0ba4660dcaff304af",
+            "schemaVersion": "1.0",
+            "type": "custom-html",
+            "uniqueID": "27F55451-C0FF-4CA0-BA46-60DCAFF304AF"
+        },
+        {
+            "annotationRefs": {
+                "dataSourceName": {
+                    "kind": "dataSourceName",
+                    "value": "c685b4e3-bd4e-f832-c275-c258556eeac4.TestViewDataSource"
+                }
+            },
+            "annotations": {
+                "id": "componentIdentifier"
+            },
+            "dataSourceName": "TestViewDataSource",
+            "deleted": false,
+            "designProps": {
+                "height": "200px",
+                "left": "1010px",
+                "top": "437px",
+                "width": "200px",
+                "zIndex": 18
+            },
+            "events": {
+                "onDataBound": "",
+                "onSeriesClick": ""
+            },
+            "htmlWrapper": {
+                "html": "[[COMPONENT-CONTENT]]",
+                "placeholder": "[[COMPONENT-CONTENT]]"
+            },
+            "id": "donutchartsd59a7a2b787b4586b15f4db31c71a48c",
+            "legend": {
+                "background": "white",
+                "position": "Top",
+                "visible": false
+            },
+            "schemaVersion": "1.0",
+            "series": [
+                {
+                    "categoryField": "city",
+                    "field": "integer_data_100_1000",
+                    "name": "Series A",
+                    "startAngle": 90
+                },
+                {
+                    "categoryField": "company",
+                    "field": "integer_data_20_80",
+                    "name": "Series B",
+                    "startAngle": 120
+                }
+            ],
+            "seriesDefaults": {
+                "labels": {
+                    "background": "white",
+                    "position": "Above",
+                    "templateFunction": "",
+                    "templateId": "",
+                    "visible": false
+                },
+                "typeChart": "Donut"
+            },
+            "title": {
+                "text": ""
+            },
+            "tooltip": {
+                "templateFunction": "",
+                "templateId": "",
+                "visible": false
+            },
+            "type": "donut-charts",
+            "uniqueID": "D59A7A2B-787B-4586-B15F-4DB31C71A48C"
+        },
+        {
+            "annotations": {
+                "id": "componentIdentifier"
+            },
+            "contentType": "Text",
+            "deleted": false,
+            "designProps": {
+                "height": "40px",
+                "left": "1035px",
+                "styleAttributes": [
+                    "font-family: Roboto-Regular;",
+                    "font-size: 19px;",
+                    "color: #000000;",
+                    "text-align: center;",
+                    "line-height: 40px;"
+                ],
+                "top": "377px",
+                "width": "150px",
+                "zIndex": 19
+            },
+            "html": "<h2 class=\"k-h2 k-text-center\">Views by Browser</h2>",
+            "id": "customhtml0a3c34902fef4915b5ed3cfcd68ec60e",
+            "schemaVersion": "1.0",
+            "type": "custom-html",
+            "uniqueID": "0A3C3490-2FEF-4915-B5ED-3CFCD68EC60E"
+        },
+        {
+            "annotations": {
+                "id": "componentIdentifier"
+            },
+            "contentType": "Text",
+            "deleted": false,
+            "designProps": {
+                "height": "40px",
+                "left": "1023.5px",
+                "styleAttributes": [
+                    "font-family: Roboto-Light;",
+                    "font-size: 28px;",
+                    "color: #000000;",
+                    "text-align: center;",
+                    "line-height: 40px;"
+                ],
+                "top": "287px",
+                "width": "173px",
+                "zIndex": 20
+            },
+            "html": "<h1 class=\"k-h1 k-text-center\">Ann Anderson</h1>",
+            "id": "customhtmle6b23397a8264a538ac80a4b351b361c",
+            "schemaVersion": "1.0",
+            "type": "custom-html",
+            "uniqueID": "E6B23397-A826-4A53-8AC8-0A4B351B361C"
+        },
+        {
+            "alt": "",
+            "annotations": {
+                "id": "componentIdentifier"
+            },
+            "deleted": false,
+            "designProps": {
+                "height": "150px",
+                "left": "1034px",
+                "top": "117px",
+                "width": "150px",
+                "zIndex": 21
+            },
+            "htmlWrapper": {
+                "html": "[[COMPONENT-CONTENT]]",
+                "placeholder": "[[COMPONENT-CONTENT]]"
+            },
+            "id": "image3598cf50edd843d1b6ca83f031025220",
+            "model": "",
+            "schemaVersion": "1.0",
+            "src": "da9021e869f403573830c7af0e4da91411a54f5d.png",
+            "type": "image",
+            "uniqueID": "3598CF50-EDD8-43D1-B6CA-83F031025220"
+        },
+        {
+            "annotations": {
+                "id": "componentIdentifier"
+            },
+            "contentType": "Text",
+            "deleted": false,
+            "designProps": {
+                "height": "40px",
+                "left": "1082.5px",
+                "styleAttributes": [
+                    "font-family: Roboto-Regular;",
+                    "font-size: 19px;",
+                    "color: #000000;",
+                    "text-align: center;",
+                    "line-height: 40px;"
+                ],
+                "top": "47px",
+                "width": "55px",
+                "zIndex": 22
+            },
+            "html": "<h2 class=\"k-h2 k-text-center\">Profile</h2>",
+            "id": "customhtml0ca360c2e00646a0b4f7be7e87e8167e",
+            "schemaVersion": "1.0",
+            "type": "custom-html",
+            "uniqueID": "0CA360C2-E006-46A0-B4F7-BE7E87E8167E"
+        },
+        {
+            "annotations": {
+                "id": "componentIdentifier"
+            },
+            "contentType": "Background",
+            "deleted": false,
+            "designProps": {
+                "height": "1340px",
+                "left": "0px",
+                "styleAttributes": [
+                    "background: #FFFFFF;",
+                    "box-shadow: 1px 0 0 0 rgba(0,0,0,0.08);"
+                ],
+                "top": "0px",
+                "width": "80px",
+                "zIndex": 23
+            },
+            "html": "<div></div>",
+            "id": "customhtml0a378d3caf714453b2c09db189db567e",
+            "schemaVersion": "1.0",
+            "type": "custom-html",
+            "uniqueID": "0A378D3C-AF71-4453-B2C0-9DB189DB567E"
+        },
+        {
+            "deleted": false,
+            "designProps": {
+                "height": "975px",
+                "left": "0px",
+                "top": "117px",
+                "width": "67px",
+                "zIndex": 24
+            },
+            "htmlWrapper": {
+                "html": "[[COMPONENT-CONTENT]]",
+                "placeholder": "[[COMPONENT-CONTENT]]"
+            },
+            "id": "navigationiconbarfdefcfcac158464aace258ca318df64a",
+            "schemaVersion": "1.0",
+            "type": "navigation-icon-bar",
+            "uniqueID": "FDEFCFCA-C158-464A-ACE2-58CA318DF64A"
+        }
+    ],
+    "designProps": {
+        "backgroundColor": "rgba(255,255,255, 0.2000)",
+        "height": "1340px",
+        "width": "1280px"
+    },
+    "events": {
+        "hideEventHandler": "onHide",
+        "initEventHandler": "onInit",
+        "showEventHandler": "onShow"
+    },
+    "formGroups": [
+    ],
+    "hidden": false,
+    "htmlWrapper": {
+        "html": "[[VIEW-CONTENT]]",
+        "placeholder": "[[VIEW-CONTENT]]"
+    },
+    "label": "DASHBOARD",
+    "name": "DASHBOARD",
+    "rows": [
+    ],
+    "schemaVersion": "1.0",
+    "thumbnail": {
+        "background": "#00a2e8",
+        "color": "#ffffff",
+        "icon": "fa-cube"
+    },
+    "type": "view",
+    "uniqueID": "592543A0-053A-4319-A495-38056B543ACE",
+    "viewType": "blank"
+}
