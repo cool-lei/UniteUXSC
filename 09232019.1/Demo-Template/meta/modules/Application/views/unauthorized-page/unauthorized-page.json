@@ -1,0 +1,35 @@
+{
+    "authorization": {
+        "allowedRoles": [
+        ]
+    },
+    "customSections": {
+        "bottom": "bottomSection.html",
+        "top": "topSection.html"
+    },
+    "designProps": {
+        "backgroundColor": "#ffffff",
+        "height": "",
+        "width": ""
+    },
+    "events": {
+        "hideEventHandler": "onHide",
+        "initEventHandler": "onInit",
+        "showEventHandler": "onShow"
+    },
+    "extensionFolderName": "Application\\unauthorized-page",
+    "html": "<p><strong>We could not access the information you requested.</strong> <br> Use the navigation or go to the <a ui-sref=\"home\">Homepage</a>.</p>",
+    "name": "unauthorized-page",
+    "readonly": false,
+    "schemaVersion": "1.0",
+    "statusCode": false,
+    "thumbnail": {
+        "background": "#00a2e8",
+        "color": "#ffffff",
+        "icon": "fa-cube"
+    },
+    "title": "FORBIDDEN",
+    "type": "view",
+    "uniqueID": "e56308b6-3e07-b774-0d2b-35ca5231cd71",
+    "viewType": "unauthorized-page"
+}

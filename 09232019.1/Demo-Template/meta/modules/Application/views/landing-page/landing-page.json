@@ -1,0 +1,31 @@
+{
+    "authorization": {
+        "allowedRoles": [
+        ]
+    },
+    "customSections": {
+        "bottom": "bottomSection.html",
+        "top": "topSection.html"
+    },
+    "designProps": {
+        "backgroundColor": "#ffffff",
+        "height": "",
+        "width": ""
+    },
+    "events": {
+        "hideEventHandler": "onHide",
+        "initEventHandler": "onInit",
+        "showEventHandler": "onShow"
+    },
+    "name": "landing-page",
+    "readonly": false,
+    "schemaVersion": "1.0",
+    "thumbnail": {
+        "background": "#00a2e8",
+        "color": "#ffffff",
+        "icon": "fa-cube"
+    },
+    "type": "view",
+    "uniqueID": "11715a7f-bd24-eee3-a9ff-cd13b0ec415b",
+    "viewType": "landing-page"
+}

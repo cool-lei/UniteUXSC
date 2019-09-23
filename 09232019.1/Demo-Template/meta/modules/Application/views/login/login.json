@@ -1,0 +1,37 @@
+{
+    "authorization": {
+        "allowedRoles": [
+        ]
+    },
+    "customSections": {
+        "bottom": "bottomSection.html",
+        "middle": "middleSection.html",
+        "top": "topSection.html"
+    },
+    "designProps": {
+        "backgroundColor": "#ffffff",
+        "height": "",
+        "width": ""
+    },
+    "events": {
+        "hideEventHandler": "onHide",
+        "initEventHandler": "onInit",
+        "login": "onLogin",
+        "showEventHandler": "onShow"
+    },
+    "logo": "logo_default_login.png",
+    "name": "login",
+    "passwordLabel": "Password",
+    "readonly": false,
+    "schemaVersion": "1.0",
+    "thumbnail": {
+        "background": "#00a2e8",
+        "color": "#ffffff",
+        "icon": "fa-cube"
+    },
+    "title": "<Title>",
+    "type": "view",
+    "uniqueID": "b8c8df6b-6917-ef02-361d-9ceaedcc67a8",
+    "usernameLabel": "Username",
+    "viewType": "login"
+}

@@ -1,0 +1,45 @@
+{
+    "authorization": {
+        "roles": [
+        ]
+    },
+    "build": {
+        "debug": {
+            "baseHref": "/"
+        },
+        "release": {
+            "aot": true,
+            "baseHref": "/"
+        }
+    },
+    "children": [
+    ],
+    "defaultLangaugeCulture": "en-US",
+    "defaultLanguageLabel": "English",
+    "deleted": false,
+    "description": "",
+    "designProps": {
+        "height": "",
+        "left": "",
+        "styleAttributes": [
+        ],
+        "top": "",
+        "width": "",
+        "zIndex": 0
+    },
+    "layout": {
+    },
+    "name": "Demo-Template",
+    "ripple": false,
+    "schemaVersion": "1.0.0",
+    "startupViewInfo": {
+    },
+    "targetFramework": "Angular",
+    "theme": {
+        "baseTheme": "default",
+        "customVariables": [
+        ]
+    },
+    "type": "app",
+    "uniqueID": "1028D854-505F-4A13-927B-0739D59677D7"
+}

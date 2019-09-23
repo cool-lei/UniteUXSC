@@ -1,0 +1,145 @@
+{
+    "annotations": {
+        "dataSources": {
+            "name": "dataSourceName"
+        }
+    },
+    "authorization": {
+        "allowedRoles": [
+        ]
+    },
+    "boxStyles": {
+        "gutter": 30
+    },
+    "children": [
+        {
+            "containerUid": "a97d92c2-2c35-7901-879f-be9a3f1b89f7",
+            "deleted": false,
+            "designProps": {
+                "height": "",
+                "left": "",
+                "styleAttributes": [
+                ],
+                "top": "",
+                "width": "",
+                "zIndex": 0
+            },
+            "id": "ctl0",
+            "schemaVersion": "1.0",
+            "type": "content-placeholder",
+            "uniqueID": "ce2b199d-a790-df34-0568-e447a63724b7"
+        }
+    ],
+    "contentBox": {
+    },
+    "dataSources": [
+        {
+            "batch": true,
+            "dataProviderName": "TestDataProvider",
+            "dataSourceName": "TestDataSource",
+            "name": "TestViewDataSource",
+            "pageSize": 20,
+            "uniqueID": "9474048c-8f99-7ebb-6015-d20d74938b45"
+        }
+    ],
+    "designChildren": [
+        {
+            "deleted": false,
+            "designProps": {
+                "height": "",
+                "left": "",
+                "styleAttributes": [
+                ],
+                "top": "",
+                "width": "",
+                "zIndex": 0
+            },
+            "id": "ctl0",
+            "schemaVersion": "1.0",
+            "type": "content-placeholder",
+            "uniqueID": "ce2b199d-a790-df34-0568-e447a63724b7"
+        }
+    ],
+    "designProps": {
+        "backgroundColor": "#ffffff",
+        "height": "",
+        "width": ""
+    },
+    "events": {
+        "hideEventHandler": "onHide",
+        "initEventHandler": "onInit",
+        "showEventHandler": "onShow"
+    },
+    "name": "app-layout",
+    "readonly": false,
+    "rows": [
+        {
+            "appearanceStyles": {
+                "backgroundColor": null,
+                "color": null
+            },
+            "authorization": {
+                "allowedRoles": [
+                ]
+            },
+            "boxStyles": {
+                "margin": "",
+                "padding": "",
+                "size": {
+                    "height": "",
+                    "width": ""
+                }
+            },
+            "classList": "",
+            "cols": [
+                {
+                    "appearanceStyles": {
+                        "backgroundColor": null,
+                        "color": null
+                    },
+                    "authorization": {
+                        "allowedRoles": [
+                        ]
+                    },
+                    "boxStyles": {
+                        "margin": "",
+                        "padding": "",
+                        "size": {
+                            "height": "",
+                            "width": ""
+                        }
+                    },
+                    "breakpoints": {
+                        "sm": 12
+                    },
+                    "classList": "",
+                    "columnType": "Bootstrap",
+                    "hidden": {
+                        "lg": false,
+                        "md": false,
+                        "sm": false,
+                        "xl": false,
+                        "xs": false
+                    },
+                    "rows": [
+                    ],
+                    "schemaVersion": "1.0",
+                    "type": "col",
+                    "uniqueID": "a97d92c2-2c35-7901-879f-be9a3f1b89f7"
+                }
+            ],
+            "schemaVersion": "1.0",
+            "type": "row",
+            "uniqueID": "37842165-83f4-2681-38ba-7cddb604257c"
+        }
+    ],
+    "schemaVersion": "1.0",
+    "thumbnail": {
+        "background": "#00a2e8",
+        "color": "#ffffff",
+        "icon": "fa-cube"
+    },
+    "type": "view",
+    "uniqueID": "b084961e-f085-286d-7712-6954583cb76e",
+    "viewType": "app-layout"
+}

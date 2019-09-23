@@ -1,0 +1,29 @@
+{
+    "authorization": {
+        "allowedRoles": [
+        ]
+    },
+    "children": [
+    ],
+    "deleted": false,
+    "description": "The Application Module contains the App Layout, Landing Page, Login, and Unauthorized Page system views",
+    "designProps": {
+        "height": "",
+        "left": "",
+        "styleAttributes": [
+        ],
+        "top": "",
+        "width": "",
+        "zIndex": 0
+    },
+    "moduleType": "system",
+    "name": "Application",
+    "order": 0,
+    "schemaVersion": "1.0",
+    "thumbnail": {
+        "background": "#b2b2b2",
+        "color": "#ffffff",
+        "icon": "fa-cube"
+    },
+    "type": "module"
+}
