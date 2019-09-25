@@ -1,0 +1,31 @@
+{
+    "authorization": {
+        "allowedRoles": [
+        ]
+    },
+    "children": [
+    ],
+    "deleted": false,
+    "description": "",
+    "designProps": {
+        "height": "",
+        "left": "",
+        "styleAttributes": [
+        ],
+        "top": "",
+        "width": "",
+        "zIndex": 0
+    },
+    "label": "Default",
+    "moduleType": "default",
+    "name": "Default",
+    "order": 1,
+    "schemaVersion": "1.0",
+    "thumbnail": {
+        "background": "#00a2e8",
+        "color": "#ffffff",
+        "icon": "fa-cube"
+    },
+    "type": "module",
+    "uniqueID": "ctl1"
+}

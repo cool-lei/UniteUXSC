@@ -1,0 +1,157 @@
+{
+    "authorization": {
+        "roles": [
+        ]
+    },
+    "build": {
+        "debug": {
+            "baseHref": "/"
+        },
+        "release": {
+            "aot": true,
+            "baseHref": "/"
+        }
+    },
+    "children": [
+    ],
+    "defaultLangaugeCulture": "en-US",
+    "defaultLanguageLabel": "English",
+    "deleted": false,
+    "description": "",
+    "designProps": {
+        "height": "",
+        "left": "",
+        "styleAttributes": [
+        ],
+        "top": "",
+        "width": "",
+        "zIndex": 0
+    },
+    "layout": {
+    },
+    "name": "Unite-UX-Dashboard",
+    "ripple": false,
+    "schemaVersion": "1.0.0",
+    "startupViewInfo": {
+    },
+    "targetFramework": "Angular",
+    "theme": {
+        "baseTheme": "default",
+        "customVariables": [
+            {
+                "name": "bg-color",
+                "value": "#ffffff"
+            },
+            {
+                "name": "base-bg",
+                "value": "#f6f6f6"
+            },
+            {
+                "name": "hovered-bg",
+                "value": "#ededed"
+            },
+            {
+                "name": "text-color",
+                "value": "#656565"
+            },
+            {
+                "name": "accent",
+                "value": "#ff6358"
+            },
+            {
+                "name": "series-a",
+                "value": "#ff6358"
+            },
+            {
+                "name": "series-b",
+                "value": "#ffd246"
+            },
+            {
+                "name": "series-c",
+                "value": "#78d237"
+            },
+            {
+                "name": "series-d",
+                "value": "#28b4c8"
+            },
+            {
+                "name": "series-e",
+                "value": "#2d73f5"
+            },
+            {
+                "name": "series-f",
+                "value": "#aa46be"
+            },
+            {
+                "name": "error",
+                "value": "#f31700"
+            },
+            {
+                "name": "info",
+                "value": "#0058e9"
+            },
+            {
+                "name": "success",
+                "value": "#37b400"
+            },
+            {
+                "name": "warning",
+                "value": "#ffc000"
+            },
+            {
+                "name": "font-family",
+                "value": "Roboto"
+            },
+            {
+                "name": "font-size",
+                "value": "14px"
+            },
+            {
+                "name": "font-size-sm",
+                "value": "12px"
+            },
+            {
+                "name": "display1-font-size",
+                "value": "84px"
+            },
+            {
+                "name": "display2-font-size",
+                "value": "70px"
+            },
+            {
+                "name": "display3-font-size",
+                "value": "56px"
+            },
+            {
+                "name": "display4-font-size",
+                "value": "42px"
+            },
+            {
+                "name": "h1-font-size",
+                "value": "28px"
+            },
+            {
+                "name": "h2-font-size",
+                "value": "19px"
+            },
+            {
+                "name": "h3-font-size",
+                "value": "14px"
+            },
+            {
+                "name": "h4-font-size",
+                "value": "12px"
+            },
+            {
+                "name": "h5-font-size",
+                "value": "12px"
+            },
+            {
+                "name": "h6-font-size",
+                "value": "12px"
+            }
+        ]
+    },
+    "type": "app",
+    "uniqueID": "5ED16FA5-6DA1-4C8F-8537-484C9FAA195E"
+}
